@@ -27,4 +27,9 @@ fn main() {
 
     let i: i32 = "100".parse().expect("Not a number");
     println!("Value of i is {}", i);
+
+
+    let e:i32 = -100;
+    let b:u32 = e as u32;
+    println!("e: {e}, b: {b}");
 }
